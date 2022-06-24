@@ -1,0 +1,101 @@
+
+.TodoApp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 520px;
+  min-height: 600px;
+  background: #161a2b;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
+h1 {
+  font-size: 3.5rem;
+  margin: 32px 0;
+  color: #fff;
+  font-size: 24px;
+}
+h2 {
+  color: #fff;
+}
+h4 {
+  font-weight: 300;
+  color: #fff;
+}
+.todo-input {
+  .list-todo {
+    height: inherit;
+  }
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #5d0cff;
+  outline: none;
+  width: 320px;
+  background: transparent;
+  color: #fff;
+  margin-bottom: 32px;
+}
+.todo-ul {
+  width: inherit;
+  cursor: pointer;
+  list-style: none;
+  padding: 0 20px 0 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.todo-item-active {
+    background: linear-gradient(
+    90deg,
+    rgba(255, 118, 20, 1) 0%,
+    rgba(255, 84, 17, 1) 100%
+  );
+  cursor: pointer;
+
+}
+
+.todo-item-inactive {
+  background: linear-gradient(
+    90deg,
+    rgb(84, 128, 224) 0%,
+    rgb(11, 150, 168) 100%
+  );
+  text-decoration: line-through;
+
+}
+
+.list-todo {
+  width: 90%;
+  height: 47px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  font-size: 1.5rem;
+  font-weight: 500;
+ 
+  
+}
+.list-todone {
+  margin-bottom: 8px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+  width: 90%;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+// span {
+//   overflow: hidden;
+//   white-space: nowrap;
+//   text-overflow: ellipsis;
+//   width: 80%;
+// }

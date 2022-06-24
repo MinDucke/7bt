@@ -1,0 +1,39 @@
+.in4{
+    box-shadow: 2px 2px 1em  rgba(0, 0, 0, 0.2);
+    margin: 14px 8px;
+    border-radius: 6px;
+    border: 1px #b89c9c;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    
+}
+.in4:hover{
+    transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+.data-country{
+    margin-left: 15px;
+    padding-bottom: 20px;
+    font-size: 1.1rem;
+    color: #000;
+
+}
+.name-country{
+    font-weight: 700;
+    color: #000;
+    font-size: 1.5rem;
+
+}
+.name-country{
+    margin: 20px 20px 20px 5px ;
+}
+.population{
+    margin: 5px;
+}
+.area{
+    margin: 5px;
+}
+.capital{
+    margin: 5px;
+}

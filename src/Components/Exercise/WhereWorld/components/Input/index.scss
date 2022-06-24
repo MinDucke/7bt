@@ -1,0 +1,18 @@
+.Loading{
+  display: flex;
+  align-items: center;
+  font-size: 4rem;
+  color: #000;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.ant-row{
+  justify-content: center;
+}
+.taskbar-ww{
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+  width: 100%
+}

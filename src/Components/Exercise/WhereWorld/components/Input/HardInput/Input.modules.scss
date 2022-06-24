@@ -1,0 +1,23 @@
+
+.search{
+    display: flex;
+    outline: 0;
+    align-items: center;
+    border:  1px;
+    border-radius: 5px;
+    font-size: 23px;
+    padding: 4px;
+    box-shadow: 2px 2px 1em rgba(0, 0, 0, 0.2);
+}
+.input-ww{
+    outline: none;
+    border: none;
+}
+
+.region{
+    box-shadow: 2px 2px 1em rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    outline: 0;
+    width: auto;
+    font-size: 1.2rem;
+}

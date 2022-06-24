@@ -1,0 +1,35 @@
+.Exercise {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  font-family: cursive;
+  text-decoration: none;
+  font-size: 5rem !important;
+  font-weight: 600;
+  color: rgb(224, 47, 47);
+  margin-bottom: 25px;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+}
+a:link {
+  text-decoration: none;
+  font-size: 2rem;
+}
+a {
+  color:#fff;
+  font-weight: 300;
+}
+button {
+  border-radius: 5px;
+  border: 2px solid #5d0cff;
+  outline: none;
+  width: 320px;
+  background: #2c3133;
+  color: #fff;
+  margin-bottom: 32px;
+}
