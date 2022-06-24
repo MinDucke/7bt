@@ -10,7 +10,7 @@ function CountryItem({name, capital, population, region, flag}:CountryItemType) 
         <div className='in4' >
             <img src={flag} alt ={ `Flag of : ${name.common}`} style={{borderRadius:"6px",}}/>
         <div className='data-country'> 
-             <div className='name-country'>{name.common}</div>
+             <h1 className='name-country'>{name.common}</h1>
             <p className='population'>Population: {population}</p>
             <p className='area'>Region: {region}</p>
             <p className='capital'>Capital: {capital}</p>

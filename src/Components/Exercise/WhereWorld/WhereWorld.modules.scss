@@ -13,13 +13,41 @@
     justify-content: space-around;
     box-shadow: 0px 2px 5px rgb(0 0 0 / 12%);
 }
-
-.search{
-
+.dark-mode{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 550;
 }
-.region{
-
+.title-ww{
+    font-size: 1.6rem;
+    font-weight: 650;
+    color: #000;
 }
-.national{
-
+.d-m{
+    color: #000;
 }
+
+:root{
+    --text-cl: #000;
+    --bg--color: #fff;
+}
+.WhereWorl-container{
+    --text-cl: #fff;
+    --bg--color: #000;
+}
+.title-ww,.d-m,.dark-mode, .input-ww, .region, .name-country,option, .population, .area, .capital, .search{
+    color: var(--text-cl);
+    background-color: var(--bg--color);
+}
+ .bg-color{
+    background-color: var(--bg--color);
+
+    .in4{
+    box-shadow: 2px 2px 1em  rgba(109, 100, 100, 0.2);
+    }
+    .header-ww{
+        box-shadow: 0px 2px 5px rgba(204, 187, 187, 0.12);
+    }
+ }
